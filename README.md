@@ -1,6 +1,6 @@
-Rise/Set Time Calculator
+TGS Analyzer
 ====================
-GUI program for analyzing and extracting spectra from astronomical images taken using a
+GUI program for extracting and analyzing spectra from astronomical images taken using a
 transmission grating spectrometer (TGS).
 
 Using/Installing TGS Analyzer
