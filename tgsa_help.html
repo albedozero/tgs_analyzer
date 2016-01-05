@@ -1,0 +1,95 @@
+<html>
+
+<body>
+<h4>Table of Contents</h4>
+
+<ul>
+<li><a href="#basic">Quick Start</a></li>
+<li><a href="#images">Using FITS Images</a></li>
+<li><a href="#plots">Modifying Plots</a></li>
+<li><a href="#saving">Saving Data</a></li>
+<li><a href="#stitch">Stitching Spectra</a></li>
+<li><a href="#glos">Glossary</a></li>
+</ul>
+
+<p>
+<a name="basic">
+<h6>Quick Start</h6>
+Open a FITS image taken using the transmission grating spectrometer (TGS)
+by selecting <i>File -&gt; Open</i> and choosing the file. Click on the
+image to center the crosshair on the star in the image. Check that the red
+selection box in the image is around the diffracted spectrum. Choose
+<i>Image -&gt; Create Plot</i> to produce a spectrum plot.
+</a>
+</p>
+
+<p>
+<a name="images">
+<h6>Using FITS Images</h6>
+Use the zoom options to study the image in detail to better position
+the selection box. Detailed information about the image can be found
+in the FITS header, which can be revealed by selecting
+<i>Image -&gt; Show/Hide FITS Header</i>.
+Compensate for rotation in the spectrum by using the tilt up/tilt down controls.
+Wavelength accuracy in plots can be improved by comparing position of
+emission/absorption lines to predicted values and fine-tuning the position
+of the selection box in the image.
+</a>
+</p>
+
+<p>
+<a name="plots">
+<h6>Modifying Plots</h6>
+Appearance of plots, as well as plotting of spectral lines, can
+be configured using the options in the <i>Plot</i> menu. Note:
+modifying the median average width will alter the spectrum
+data in the plot.</a>
+</p>
+
+<p>
+<a name="saving">
+<h6>Saving Data</h6>
+Plots can be saved as PDF files by choosing <i>File -&gt; Save</i>.
+Raw data from plots can be saved as simple comma-separated-value (CSV)
+files by selecting <i>File -&gt; Export Data</i>.
+</a>
+</p>
+
+<p>
+<a name="stitch">
+<h6>Stitching Spectra</h6>
+In order to compensate for blurring caused by the curved focal plane
+of the transmission grating, several images can be taken at different
+focus positions, plotted and combined. Produce spectrum plots of each
+image in the set and select <i>Plot -&gt; Stitch Spectra..</i>. Select
+the plots from the list on the left and click <i>Add</i> to append
+them to the list of plots to combine. Plots will be combined in
+the order in which they appear in the list on the right. You can enter
+a comma-separated list of wavelengths at which to stich the spectra
+together, or allow them to be split at even intervals. Press <i>OK</i>
+to produce a combined plot.
+</a>
+</p>
+
+<p>
+<a name="glos">
+<h6>Glossary</h6>
+<dl>
+<dt>CCD</dt>
+<dd>Charged Coupled Device - a 2D array of silicon pixels used to detect
+incoming photons in order to reproduce a digital image.</dd>
+
+<dt>FITS image</dt>
+<dd>Flexible Image Transport System - an image format that can contain 2D and 3D
+data, as well as attached text with information about the image.</dd>
+
+<dt>transmission grating</dt>
+<dd>a thin plate of glass etched with parallel lines, which diffracts
+light passing through it into a spectrum</dd>
+
+</dl>
+</a>
+</p>
+
+</body>
+</html>
