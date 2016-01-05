@@ -22,7 +22,7 @@ These are found in exec/. PyInstaller can be obtained from https://github.com/py
 To compile for a different system using pyinstaller, clone this repository and pyinstaller on that
 machine, and run the command
 
-      pyinstaller tgsa.py -F -i <icon_file>
+      pyinstaller tgsa.py -F -w -i <icon_file>
 
 where *icon_file* is the appropriate icon file found in icons/, if desired.
 
